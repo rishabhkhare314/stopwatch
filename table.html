@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width="initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="Enter First value" id="first">
+    <input type="text" placeholder="Enter Second value" id="second">
+    <input type="submit" value="Add Row" onclick="btn()" >
+
+
+    
+<table >
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last  Name</th>
+        </tr>
+    </thead>
+    <tr 
+    <td id="data1"></tr>
+</table>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+    function btn(){
+    fvalue = document.getElementById('first').value;
+    lvalue = document.getElementById('second').value    ;
+    console.log(fvalue);
+    console.log(lvalue);
+    AddRow(first.fvalue,second.lvalue);
+    first.value="";
+    last.value="";
+
+
+    // var first = document.getElementById('first').value;
+    // var second = document.getElementById('second').value+'\n';
+
+    // var row = document.getElementById("data1");
+    // //row.insertRow(first,second);
+    //  var x = row.insertCell(0);
+    //  var y = row.insertCell(1);
+    //  x.innerHTML = `${first}`;
+    //  y.innerHTML = `${second}`;
+     
+    }
+    
+</script>
+</body>
+</html>
+           
